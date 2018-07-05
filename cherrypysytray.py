@@ -44,8 +44,8 @@ class SysTrayPlugin(plugins.SimplePlugin):
 
     '''
 
-    def __init__(self, bus, icon, name, menu_options, on_quit=None):
-        if on_quit is not None and not callable(on_quit):
+    def __init__(self, bus, icon, name, menu_options, on_quit=lambda: None):
+        if not callable(on_quit):
             raise TypeError('on_quit not a callable object.')
         self.on_quit = on_quit
 
