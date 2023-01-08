@@ -1,6 +1,6 @@
 ## CherrypySystray
 
-CherrypySystray is a simpleplugin interface for [infi.systray](https://github.com/Infinidat/infi.systray) that allows systray to start and stop according to Cherrypy's signals.
+CherrypySystray is a simple plugin interface for [infi.systray](https://github.com/Infinidat/infi.systray) that allows systray to start and stop according to Cherrypy's signals.
 
 #### Usage
 
